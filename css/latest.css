@@ -1,0 +1,274 @@
+#latest {
+  padding: 50px 0;
+}
+
+#latest .header {
+  padding: 50px 0;
+}
+
+#latest .header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#latest .header h1 {
+  color: #6066f2;
+  font-size: 4.2rem;
+  max-width: 400px;
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+#latest .header .directions {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 35px;
+}
+
+#latest .header .directions .move-left {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  float: left;
+  padding: 20px 70px;
+  font-size: 3rem;
+  background: #6066f2;
+  color: #fff;
+  border: 1px solid #6066f2;
+  cursor: pointer;
+}
+
+#latest .header .directions .move-right {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  float: right;
+  padding: 20px 70px;
+  font-size: 3rem;
+  background: white;
+  color: #cecece;
+  border: 1px solid #cecece;
+  cursor: pointer;
+}
+
+#latest .body {
+  padding: 100px 0; 
+}
+
+
+#latest .body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#latest .body .column{
+  width: 33.33%;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+}
+
+#latest .body .column .bg-square {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: #e05353; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #e05353 0%, #26215b 49%, #d655d4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #e05353 0%,#26215b 49%,#d655d4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #e05353 0%,#26215b 49%,#d655d4 100%);
+  position: relative;
+}
+
+#latest .body .column .bg-square img {
+  width: 80%;
+  position: absolute;
+  top: -30%;
+  left: 10%;
+}
+
+#latest .body .column .bg-square .cart {
+  width: 94px;
+  height: 94px;
+  border: 8px solid white;
+  position: absolute;
+  top: -15%;
+  right: -16%;
+  border-radius: 50%;
+  background: -moz-linear-gradient(-45deg, #e05353 0%, #26215b 49%, #d655d4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #e05353 0%,#26215b 49%,#d655d4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #e05353 0%,#26215b 49%,#d655d4 100%);
+  color: white;
+}
+
+#latest .body .column .bg-square .cart .fas {
+  font-size: 2rem;
+  position: relative;
+  top: 22px;
+  left: -3px;
+}
+
+#latest .body .column .line {
+  width: 20%;
+  height: 2px;
+  background: #6066f2;
+  margin: 50px auto;
+  display: inline-block;
+
+}
+
+#latest .body .column .price {
+  color: #fea83b;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+#latest .footer {
+  text-align: center;
+  position: relative;
+}
+
+#latest .footer img {
+  width: 40%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 30%;
+  filter: grayscale(100%) invert(100%);
+  opacity: 0.1;
+  transform: rotate(40deg);
+}
+
+#latest .footer .info-box {
+  position: relative;
+  z-index: 2;
+  padding: 200px 0;
+}
+
+#latest .footer .info-box h2 {
+  color: #6066f2;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+#latest .footer .info-box form {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#latest .footer .info-box .input-area{
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+  float: left;
+}
+
+#latest .footer .info-box .input-area .far{
+  font-size: 2rem;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
+  color: #d5e2ea;
+}
+
+#latest .footer .info-box .input-area:nth-child(1){
+  height: 80px;
+  margin-right: 50px;
+}
+
+#latest .footer .info-box .input-area input{
+  background: white;
+  padding: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  width: 230px;
+}
+
+#latest .footer .info-box .input-area:nth-child(1) input {
+  position: relative;
+  top: 8px;
+}
+
+#latest .footer .info-box .input-area:nth-child(1) .far {
+  position: relative;
+  top: 14px;
+}
+
+#latest .footer .info-box .input-area button{
+  background: #6066f2;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+
+
+
+/*------------- RESPONSIVE -----------*/
+
+/*DESKTOP*/
+@media only screen and (max-width: 1215px) {
+  
+}
+
+/*TABLET DEVICES*/
+@media only screen and (max-width: 1023px) {
+  
+}
+
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 767px) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

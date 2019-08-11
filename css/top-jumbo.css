@@ -1,0 +1,266 @@
+#top-jumbo {
+  padding: 0 0 400px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 42%, #8f5fe2 77%, #df81ef 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 42%,#8f5fe2 77%,#df81ef 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#ffffff 42%,#8f5fe2 77%,#df81ef 100%);
+}
+
+#top-jumbo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#top-jumbo .left-side {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+#top-jumbo .left-side .large-number{
+  font-size: 300px;
+  font-weight: 700;
+  opacity: .1;
+  color: #4c44c1;
+  position: relative;
+  left: 2px;
+  top: 0;
+  z-index: 1;
+}
+
+#top-jumbo .left-side .info-container {
+  position: relative;
+  top: -100px;
+}
+
+#top-jumbo .left-side .info-container h1{
+  font-size: 4.5rem;
+  color: #4c44c1;
+  text-transform: capitalize;
+  /* font-family: 'Roboto', sans-serif; */
+  margin: 1.5rem;
+  line-height: 1.1;
+}
+
+#top-jumbo .left-side .info-container p{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #aaacaf;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+#top-jumbo .left-side .info-container .email-area{
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+}
+
+#top-jumbo .left-side .info-container .email-area .far{
+  font-size: 2rem;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
+  color: #d5e2ea;
+}
+
+#top-jumbo .left-side .info-container  .email-area input[type="email"]{
+  background: white;
+  padding: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  width: 230px;
+}
+
+#top-jumbo .left-side .info-container .email-area button{
+  background: #6066f2;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+
+#top-jumbo .right-side {
+  width: 60%;
+  display: inline-block;
+  float: left;
+  padding: 0 40px;
+}
+
+#top-jumbo .right-side  img{
+  width: 100%;
+}
+
+
+
+
+/*------------- RESPONSIVE -----------*/
+
+/*DESKTOP*/
+@media only screen and (max-width: 1215px) {
+  #top-jumbo .left-side {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .large-number {
+    font-size: 250px;
+  }
+
+  #top-jumbo .left-side .large-number p {
+    font-size: 1.2rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 3.5rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 12px;
+  }
+
+  #top-jumbo .left-side .info-container .email-area button {
+    background: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+
+  #top-jumbo .right-side {
+    width: 100%;
+  }
+
+}
+
+/*TABLET DEVICES*/
+@media only screen and (max-width: 1023px) {
+
+  #top-jumbo .left-side {
+    width: 40%;
+  }
+
+  #top-jumbo .left-side .large-number {
+    font-size: 250px;
+  }
+
+  #top-jumbo .left-side .large-number p {
+    font-size: 1.2rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 3.5rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 12px;
+  }
+
+  #top-jumbo .left-side .info-container .email-area button {
+    background: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+
+  #top-jumbo .right-side {
+    width: 60%;
+  }
+
+  #yop-jumbo .right-side img {
+    position: relative;
+    width: 156px;
+  }
+  
+}
+
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 767px) {
+
+  #top-jumbo .left-side {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .large-number {
+    font-size: 250px;
+  }
+
+  #top-jumbo .left-side .large-number p {
+    font-size: 1.2rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 3.5rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 12px;
+  }
+
+  #top-jumbo .left-side .info-container .email-area button {
+    background: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+
+  #top-jumbo .right-side {
+    width: 100%;
+  }
+}
